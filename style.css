@@ -1,10 +1,10 @@
 @font-face {
     font-family: myFont;
-    src: url("./fonts/PixelifySans-VariableFont_wght.ttf");
+    src: url("./src/fonts/PixelifySans-VariableFont_wght.ttf");
   }
   @font-face {
     font-family: BaskerVille;
-    src: url("./fonts/BaskervvilleSC-Regular.ttf");
+    src: url("./src/fonts/BaskervvilleSC-Regular.ttf");
   }
   
   * {
@@ -15,7 +15,7 @@
   body {
     display: flex;
     flex-direction: column;
-    background-image: url(./images/battleshipImg.png);
+    background-image: url(./src/images/battleshipImg.png);
   }
   
   #gameName {
@@ -93,7 +93,7 @@
     width: 100px;
     font-size: 20px;
     padding: 10px;
-    background-image: url(./images/destroyer.png);
+    background-image: url(./src/images/destroyer.png);
     background-size: 167%;
     background-repeat: no-repeat;
     background-position: center;
@@ -115,7 +115,7 @@
     width: 100px;
     font-size: 20px;
     padding: 10px;
-    background-image: url(./images/carrier.jpg);
+    background-image: url(./src/images/carrier.jpg);
     background-size: 100px;
     background-repeat: no-repeat;
     background-position: center;
@@ -131,7 +131,7 @@
     height: 40px;
     width: 100px;
     font-size: 20px;
-    background-image: url(./images/submarine.png);
+    background-image: url(./src/images/submarine.png);
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center;
@@ -146,7 +146,7 @@
   #patrol {
     width: 100px;
     font-size: 20px;
-    background-image: url(./images/patrol.png);
+    background-image: url(./src/images/patrol.png);
     background-size: 80px;
     background-repeat: no-repeat;
     background-position: center;
@@ -169,7 +169,7 @@
   }
   
   .hitButton {
-    background-image: url(./images/hit.png);
+    background-image: url(./src/images/hit.png);
     background-color: red;
     background-position: center;
     background-size: 100%;
@@ -177,7 +177,7 @@
   }
   
   .missButton {
-    background-image: url(./images/miss.png);
+    background-image: url(./src/images/miss.png);
     background-color: rgb(216, 216, 216);
     background-position: center;
     background-size: 100%;
