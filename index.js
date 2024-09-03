@@ -1,6 +1,6 @@
 import "./style.css";
-import { addTable } from "./table.js";
-import { gameLogic } from "./rightDiv.js";
+import { addTable } from "table.js";
+import { gameLogic } from "rightDiv.js";
 
 // adding e.listener to playAgain button
 let playAgain = document.getElementById("playAgain");
