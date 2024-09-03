@@ -1,6 +1,4 @@
-import "./style.css";
 
-export const gameLogic = () => {
   let startGameButton = document.getElementById("startGameButton");
   let startGameDiv = document.getElementById("startGameDiv");
   let informationText = document.getElementById("informationText");
@@ -45,4 +43,3 @@ export const gameLogic = () => {
     });
   }
   clickingShips();
-};
