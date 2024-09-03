@@ -1,6 +1,4 @@
-import "./style.css";
-import { addTable } from "table.js";
-import { gameLogic } from "rightDiv.js";
+
 
 // adding e.listener to playAgain button
 let playAgain = document.getElementById("playAgain");
@@ -13,6 +11,3 @@ gitHub.addEventListener("click", () => {
   window.open("https://github.com/DuleBondok");
 });
 
-//initalizing
-addTable();
-gameLogic();
