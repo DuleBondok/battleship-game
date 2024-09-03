@@ -1,11 +1,4 @@
-import "./style.css";
-export const buttonList = [];
-export let shipDestroyer;
-export let shipCarrier;
-export let shipSubmarine;
-export let shipPatrol;
 
-export const addTable = () => {
   // declaring coordinate variables and lists
   let targetX = 0;
   let targetY = 0;
@@ -953,4 +946,3 @@ export const addTable = () => {
     enemyGame();
   }
   computerPlays();
-};
