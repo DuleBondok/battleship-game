@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="./images/battleship.png" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Battleship</title>
+  </head>
+  <body>
+    <div id="footerDiv">
+      <h1 id="duleB">DuleBondok</h1>
+      <img src="./images/github.png" id="gitHub" />
+    </div>
+    <div id="finishGameDiv">
+      <h1 id="finishGameText"></h1>
+      <button id="playAgain">Play again!</button>
+    </div>
+    <div id="startGameDiv">
+      <img id="battleshipImg" src="./images/battleshipImg.png" />
+      <img id="logoImg" src="./images/battleShipLogo.webp" />
+      <div id="inputDiv">
+        <h2 id="enterNameText">ENTER PLAYER NAME:</h2>
+        <div id="enterNameDiv">
+          <img src="./images/pilot.png" id="captainImg" />
+          <input
+            type="text"
+            placeholder="Battleship Combatant"
+            id="nameInput"
+            required
+          />
+        </div>
+        <button id="startGameButton">Start Game</button>
+      </div>
+    </div>
+    <header>
+      <h1 id="gameName">BATTLESHIP</h1>
+    </header>
+    <div id="mainDiv">
+      <div id="leftDiv">
+        <div id="shipDiv">
+          <button id="carrier"></button>
+          <button id="destroyer"></button>
+          <button id="submarine"></button>
+          <button id="patrol"></button>
+        </div>
+        <div id="leftField"></div>
+        <h2 id="informationText"></h2>
+      </div>
+      <div id="rightDiv">
+        <div id="rightField"></div>
+      </div>
+    </div>
+    <footer></footer>
+  </body>
+</html>
