@@ -5,7 +5,7 @@
   let squareList = [];
   let finishGameText = document.getElementById("finishGameText");
   let finishGameDiv = document.getElementById("finishGameDiv");
-
+  const buttonList = [];
   // declaring square object
   function Square(targetX, targetY) {
     this.targetX = targetX;
