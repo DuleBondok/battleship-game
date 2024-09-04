@@ -839,6 +839,7 @@
       if (allDestroyed === 4) {
         finishGameText.textContent = "You won! Congratulations!";
         finishGameDiv.style.display = "flex";
+        blackDiv.style.display = "flex";
       }
       //wait after player click
       setTimeout(() => {
@@ -933,9 +934,10 @@
       if (allPlayerDestroyedShips === 4) {
         finishGameText.textContent = "You lost. Better luck next time!";
         finishGameDiv.style.display = "flex";
+        blackDiv.style.display = "flex";
       }
     }
-
+    let blackDiv = document.getElementById("blackDiv");
     // convert coordinates to string
     function convertStringToNumber(string) {
       string = string.replace(/\,/g, "");
