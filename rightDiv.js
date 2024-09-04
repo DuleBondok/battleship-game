@@ -38,7 +38,7 @@
       clickPatrol.style.border = "3px solid red";
       setTimeout(() => {
         informationText.textContent =
-          "Now attack enemy ships by clicking on right field!";
+          "Attack enemy by clicking right field!";
       }, "1300");
     });
   }
