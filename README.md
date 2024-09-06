@@ -21,8 +21,8 @@ After player attacks enemy board, computer attacks his board randomly.
 - Implementing AI for computer plays
 
 ## Resources
-<a href="https://www.flaticon.com/free-icons/destroyer" title="destroyer icons">Destroyer icons created by alekseyvanin - Flaticon</a>
-<a href="https://wall.alphacoders.com/big.php?i=1333662" title="destroyer wallpaper">Destroyer wallpaper by patrika</a>
+- <a href="https://www.flaticon.com/free-icons/destroyer" title="destroyer icons">Destroyer icons created by alekseyvanin - Flaticon</a>
+- <a href="https://wall.alphacoders.com/big.php?i=1333662" title="destroyer wallpaper">Destroyer wallpaper by patrika</a>
 
 
 ## 💻 Built With
